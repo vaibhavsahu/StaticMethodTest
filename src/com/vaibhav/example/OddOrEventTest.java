@@ -11,8 +11,8 @@ public class OddOrEventTest {
 
     @Test
     public void twoIsEven(){
-        boolean result = Deencapsulation.invoke(OddOrEven.class, "isEven", 3);
-        Assert.assertEquals(false, result);
+        boolean result = Deencapsulation.invoke(OddOrEven.class, "isEven", 2);
+        Assert.assertEquals(true, result);
     }
 
 
